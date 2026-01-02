@@ -1,6 +1,6 @@
 cask "ruto" do
   version "1.0-1"
-  sha256 "403366c86b5717449800ff194cea494fc7adc81e435d592f10e29c10cd51fc3f"
+  sha256 "03bf73979df8a0e3fbe3186a4f237b7435acab733428dfb52fc89908a7778216"
 
   url "https://github.com/saiumesh535/Ruto-bin/releases/download/v#{version}/Ruto.zip"
   name "Ruto"
