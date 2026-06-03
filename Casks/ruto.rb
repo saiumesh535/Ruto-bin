@@ -1,11 +1,17 @@
 cask "ruto" do
-  version "1.2-2"
-  sha256 "a9df3666fe8a582a0846315af14671c828442e93797c5d401eaf08f3206dbdcd"
+  version "1.2-3"
+  sha256 "5fe4c0d89b9868a3d597478ff1dafaa649630feedcfed83ad8fa130310c28ad4"
 
   url "https://github.com/saiumesh535/Ruto-bin/releases/download/v#{version}/Ruto.zip"
   name "Ruto"
   desc "A lightweight macOS menu-bar app to switch and manage your default browser easily"
   homepage "https://github.com/saiumesh535/Ruto-bin"
+
+  livecheck do
+    url :homepage
+    strategy :github_latest
+    regex(/^v?(\d+(?:\.\d+)+-\d+)$/i)
+  end
 
   depends_on macos: ">= :ventura"
 
