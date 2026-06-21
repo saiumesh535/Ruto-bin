@@ -1,6 +1,6 @@
 cask "ruto" do
-  version "1.2-6"
-  sha256 "d5355de98b1f21cf45ba0e00e00da48d7e88eee8e7d92abbc9184f1153721c00"
+  version "1.2-7"
+  sha256 "4a555198dcc5089f0a998a259989e8a617b2a75187ce0da3577b50f3e4a38654"
 
   url "https://github.com/saiumesh535/Ruto-bin/releases/download/v#{version}/Ruto.zip"
   name "Ruto"
@@ -8,9 +8,9 @@ cask "ruto" do
   homepage "https://ruto.saiumesh.dev"
 
   livecheck do
-    url :homepage
+    url "https://github.com/saiumesh535/Ruto-bin"
     strategy :github_latest
-    regex(/^v?(\d+(?:\.\d+)+-\d+)$/i)
+    regex(/^v?(d+(?:.d+)+-d+)$/i)
   end
 
   depends_on macos: ">= :sequoia"
