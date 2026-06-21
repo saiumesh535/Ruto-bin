@@ -5,7 +5,7 @@ cask "ruto" do
   url "https://github.com/saiumesh535/Ruto-bin/releases/download/v#{version}/Ruto.zip"
   name "Ruto"
   desc "A lightweight macOS menu-bar app to switch and manage your default browser easily"
-  homepage "https://github.com/saiumesh535/Ruto-bin"
+  homepage "https://ruto.saiumesh.dev"
 
   livecheck do
     url :homepage

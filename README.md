@@ -1,150 +1,134 @@
 # Ruto
 
-> The smartest way to control how links open on your Mac. Route, automate, and streamline your browsing with effortless precision.
+> Every link. The right browser.
 
-[![macOS](https://img.shields.io/badge/macOS-13.0+-blue.svg)](https://www.apple.com/macos/)
-[![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Website](https://img.shields.io/badge/website-ruto.saiumesh.dev-teal.svg)](https://ruto.saiumesh.dev)
+[![macOS](https://img.shields.io/badge/macOS-15.6+-blue.svg)](https://www.apple.com/macos/)
+[![SwiftUI](https://img.shields.io/badge/SwiftUI-5.9+-orange.svg)](https://swift.org/)
 
-**Ruto** is a productivity app for macOS that lets you set rules for where links should open. Set it once, and it just works. No more clicking links and having them open in the wrong browser.
+**Ruto** is a native macOS app that routes links to the browser you choose. Match URLs with rules, pick a browser when nothing matches, and keep analytics on your Mac.
 
-Learn more: [saiumesh.dev/apps/ruto](https://saiumesh.dev/apps/ruto)
+**Website:** [ruto.saiumesh.dev](https://ruto.saiumesh.dev)
 
 ---
 
 ## Features
 
-- **Smart URL Routing** - Automatically route URLs to specific browsers based on rules
-- **Flexible Rule Matching** - Support for exact domains, wildcards (`*.example.com`), and regex patterns
-- **Built-in Regex Tester** - Test your patterns before saving them to ensure they work correctly
-- **Interactive Overlay** - Quick browser selection when no rule matches, with option to remember your choice
-- **Usage Analytics** - Track which browsers and rules are used most, with trends over time
-- **Browser Profile Support** - Route to specific browser profiles (e.g., work Chrome profile vs personal)
-- **Native macOS Design** - Built with SwiftUI for a beautiful, native experience that feels familiar
-- **Real-time Sync** - Automatically detects when default browser changes
-- **Theme Support** - Light, Dark, and System appearance modes
-- **Launch at Login** - Start automatically with your Mac
-- **Menu Bar Integration** - Runs quietly in the background without getting in your way
+- **Smart URL rules** — Route by domain, wildcard (`*.figma.com`), or full URL. Toggle rules active/inactive.
+- **Browser picker overlay** — Native dock-style picker when no rule matches, with remember choice.
+- **Profiles & private mode** — Open links in Chromium profiles (Chrome, Brave, Edge, Arc) or private/incognito windows.
+- **All Rules dashboard** — Search, filter, master-detail inspector, and inline hit counts.
+- **Per-browser rules** — Manage rules scoped to each browser from the sidebar.
+- **Local analytics** — Total opens, unique opens, top rules, browser breakdown, and charts (Today, 7/30 days, custom range). Data stays on your Mac.
+- **Browser extension** — Right-click **Open with Ruto** in Chrome, Brave, Edge, Arc, or Firefox without changing your default browser.
+- **Default browser sync** — Detect installed browsers; set Ruto as default or sync when macOS changes externally.
+- **Privacy first** — No cloud account. Extension uses a local bridge token.
+- **Settings & updates** — Open at login, light/dark/system theme, and in-app update checks from GitHub Releases.
 
 ---
 
-## Supported Browsers
+## Supported browsers
 
-Ruto works with all major browsers:
-- Chrome (including profiles)
-- Firefox (including Developer Edition)
-- Safari
-- Brave
-- Arc
-- Edge
-- Orion
-- And more
+Safari, Chrome, Firefox, Brave, Arc, Edge, Orion, and other macOS browsers registered for http/https.
+
+Chromium **profiles** are supported for Chrome, Brave, Edge, and Arc.
 
 ---
 
-## System Requirements
+## System requirements
 
-- **macOS 13.0 (Ventura)** or later
-- **Apple Silicon** or **Intel** Mac
+- **macOS 15.6 (Sequoia)** or later
+- Apple Silicon or Intel
 
 ---
 
 ## Installation
 
-### Homebrew (Recommended)
+### Homebrew (custom tap)
 
 ```bash
+brew tap saiumesh535/ruto-bin
 brew install --cask ruto
 ```
 
-Or via tap:
+Upgrade later:
 
 ```bash
-brew tap yourusername/ruto
-brew install ruto
+brew update && brew upgrade --cask ruto
 ```
 
-### Manual Download
+### Manual download
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/ruto-releases/releases) page
-2. Open the downloaded `.dmg` file
-3. Drag **Ruto** to your Applications folder
-4. Open Ruto from Applications (you may need to allow it in System Preferences > Security & Privacy)
+1. Download the latest **[Ruto.zip](https://github.com/saiumesh535/Ruto-bin/releases/latest)** from [Releases](https://github.com/saiumesh535/Ruto-bin/releases).
+2. Unzip and drag **Ruto.app** to **Applications**.
+3. Open Ruto (allow in **System Settings → Privacy & Security** if macOS blocks the first launch).
 
----
+Each release includes:
 
-## Quick Start
+| Asset | Description |
+|-------|-------------|
+| `Ruto.zip` | Signed, notarized macOS app |
+| `Ruto-browser-extension.zip` | Chromium + Firefox extension folders |
 
-1. **Launch Ruto** from Applications
-2. **Set Ruto as Default Browser** (optional) - Click "Set as default" in the sidebar footer
-3. **Create Your First Rule**:
-   - Click "Add Rule" in the All Rules view
-   - Enter a pattern (e.g., `github.com` or `*.figma.com`)
-   - Select your preferred browser
-   - Click "Add"
+### In-app updates
 
-4. **Test It Out** - Open a URL matching your rule and watch it route automatically!
+Open **Ruto → Settings → Updates**, then **Check Now** or **Install Update**.
 
 ---
 
-## How It Works
+## Quick start
 
-You create rules that match URLs and tell Ruto which browser to use. It can be as simple as **youtube.com always opens in Brave** or as complex as regex patterns for specific workflows.
+1. Launch **Ruto** from Applications.
+2. Optionally click **Set as default** in the sidebar to intercept http/https links.
+3. In **All Rules**, add a pattern (e.g. `github.com` or `*.notion.so`) and pick a browser.
+4. Click a matching link — it opens in the right browser. No match? Use the picker overlay.
 
-1. **Set Ruto as Default Browser** (optional but recommended)
-2. When you click a link, macOS launches Ruto
-3. Ruto checks your rules to find a match
-4. If matched → Opens in the specified browser automatically
-5. If no match → Shows overlay to choose browser (with option to remember)
-
-The rules are flexible. You can match exact domains, use wildcards, or write full regex patterns if you need something more specific. Use the built-in regex tester to make sure your patterns work before saving them.
+**Tip:** Option-click or right-click a browser in the picker for profiles and private mode.
 
 ---
 
-## Usage Examples
+## Browser extension
 
-| Type | Pattern | Browser | Description |
-|------|---------|---------|-------------|
-| **Basic Domain** | `github.com` | Chrome | Routes all GitHub links to Chrome |
-| **Regex** | `(github\.com\|gitlab\.com\|bitbucket\.org)` | Chrome | Routes all major Git hosting platforms to Chrome |
+Use Ruto from any tab without making it your default browser.
 
----
+1. Download **[Ruto-browser-extension.zip](https://github.com/saiumesh535/Ruto-bin/releases/latest)** from the latest release (or use the copy bundled inside `Ruto.app`).
+2. Launch Ruto once, then open **Browser Extension** in the sidebar and click **Refresh Status**.
+3. **Chromium:** `chrome://extensions` → Developer mode → **Load unpacked** → select the `chromium` folder from the zip.
+4. **Firefox:** `about:debugging` → **This Firefox** → **Load Temporary Add-on** → select `firefox/manifest.json`.
+5. Right-click any link → **Open with Ruto**.
 
-## Analytics
-
-Ruto includes built-in analytics to help you understand your browsing patterns. It shows:
-- Which rules trigger most often
-- Which browsers you use the most
-- Trends over time with date range filtering
-
-This can be useful for optimizing your workflow and understanding your browsing habits.
+Full release notes on each [GitHub release](https://github.com/saiumesh535/Ruto-bin/releases/latest) include extension steps.
 
 ---
 
-## Design Philosophy
+## How it works
 
-Ruto is designed to be simple and native. It lives in your menu bar, runs quietly in the background, and doesn't get in your way. The interface uses standard macOS patterns, so it feels familiar from the first time you open it.
-
-It's one of those tools that you set up once and then forget about—until you realize how much time it's saving you.
+1. Set Ruto as your default browser (optional), or use the extension from any browser.
+2. A link opens → Ruto checks your rules.
+3. **Match** → opens in the configured browser (and profile/private settings if set).
+4. **No match** → browser picker overlay appears.
 
 ---
 
-## Documentation
+## Example rules
 
-- [Official Website](https://saiumesh.dev/apps/ruto)
-- [User Guide](https://github.com/yourusername/ruto-releases/wiki)
-- [Rule Patterns Guide](https://github.com/yourusername/ruto-releases/wiki/Rule-Patterns)
-- [FAQ](https://github.com/yourusername/ruto-releases/wiki/FAQ)
+| Pattern | Opens in | Notes |
+|---------|----------|--------|
+| `github.com` | Chrome | Domain match |
+| `*.figma.com` | Safari | Wildcard subdomain |
+| `https://x.com/user/status/123` | Firefox | Exact URL |
 
 ---
 
 ## Links
 
-- [Official Website](https://saiumesh.dev/apps/ruto)
-- [Report Bug](https://github.com/yourusername/ruto-releases/issues)
-- [Request Feature](https://github.com/yourusername/ruto-releases/issues)
-- [Changelog](https://github.com/yourusername/ruto-releases/releases)
+| | |
+|---|---|
+| **Website** | [ruto.saiumesh.dev](https://ruto.saiumesh.dev) |
+| **Releases** | [github.com/saiumesh535/Ruto-bin/releases](https://github.com/saiumesh535/Ruto-bin/releases) |
+| **Extension setup** | [Latest release notes](https://github.com/saiumesh535/Ruto-bin/releases/latest) |
+| **Issues** | [github.com/saiumesh535/Ruto-bin/issues](https://github.com/saiumesh535/Ruto-bin/issues) |
 
 ---
 
-**Made for macOS users who want control over their browsing experience**
+Made for macOS users who want control over their browsing experience.
