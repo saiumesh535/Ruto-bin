@@ -1,6 +1,6 @@
 cask "ruto" do
-  version "1.2-3"
-  sha256 "5fe4c0d89b9868a3d597478ff1dafaa649630feedcfed83ad8fa130310c28ad4"
+  version "1.2-4"
+  sha256 "30c3fdfe5cbfbfcb4b3e1567d9e6d8ba4f57e004258c3575896d6ae7224d5ece"
 
   url "https://github.com/saiumesh535/Ruto-bin/releases/download/v#{version}/Ruto.zip"
   name "Ruto"
@@ -13,7 +13,7 @@ cask "ruto" do
     regex(/^v?(\d+(?:\.\d+)+-\d+)$/i)
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sequoia"
 
   app "Ruto.app"
 
