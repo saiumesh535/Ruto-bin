@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ruto</title>
+        <item>
+            <title>1.5</title>
+            <pubDate>Wed, 19 Aug 2026 11:05:14 +0530</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.5-12/Ruto.zip" sparkle:edSignature="t6yPQmEeo7uZA4y1CrMowXRSMoZU/491siZwNwlrPHQ9H1NHiZkgsyb8ZptVjETYfCUY4zgLMWJmABo/GnPFBw==" sparkle:os="macos" length="2439191" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
