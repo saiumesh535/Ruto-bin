@@ -3,6 +3,14 @@
     <channel>
         <title>Ruto</title>
         <item>
+            <title>1.6</title>
+            <pubDate>Wed, 19 Aug 2026 10:01:23 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-13/Ruto.zip" length="2293716" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.5</title>
             <pubDate>Wed, 19 Aug 2026 11:05:14 +0530</pubDate>
             <sparkle:version>12</sparkle:version>
