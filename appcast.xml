@@ -4,27 +4,11 @@
         <title>Ruto</title>
         <item>
             <title>1.6</title>
-            <pubDate>Fri, 21 Aug 2026 15:18:16 +0000</pubDate>
+            <pubDate>Fri, 21 Aug 2026 20:56:47 +0530</pubDate>
             <sparkle:version>14</sparkle:version>
             <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-14/Ruto.zip" length="2291938" type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>1.6</title>
-            <pubDate>Wed, 19 Aug 2026 10:01:23 +0000</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-13/Ruto.zip" length="2293716" type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>1.5</title>
-            <pubDate>Wed, 19 Aug 2026 11:05:14 +0530</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.5-12/Ruto.zip" sparkle:edSignature="t6yPQmEeo7uZA4y1CrMowXRSMoZU/491siZwNwlrPHQ9H1NHiZkgsyb8ZptVjETYfCUY4zgLMWJmABo/GnPFBw==" sparkle:os="macos" length="2439191" type="application/octet-stream"/>
+            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-14/Ruto.zip" sparkle:edSignature="yG0uGVAkKbiwaiP2zVBATQYtVZ1MntzWsJoja7RjZ0qayDrEFGPNSivv/OEBaZpKlrio5qDHAgPwL+Ne2EJiBg==" sparkle:os="macos" length="2291938" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
