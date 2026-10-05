@@ -4,11 +4,11 @@
         <title>Ruto</title>
         <item>
             <title>1.6</title>
-            <pubDate>Fri, 21 Aug 2026 20:56:47 +0530</pubDate>
-            <sparkle:version>14</sparkle:version>
+            <pubDate>Mon, 05 Oct 2026 11:55:27 +0530</pubDate>
+            <sparkle:version>15</sparkle:version>
             <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-14/Ruto.zip" sparkle:edSignature="yG0uGVAkKbiwaiP2zVBATQYtVZ1MntzWsJoja7RjZ0qayDrEFGPNSivv/OEBaZpKlrio5qDHAgPwL+Ne2EJiBg==" sparkle:os="macos" length="2291938" type="application/octet-stream"/>
+            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-15/Ruto.zip" sparkle:edSignature="1GIN7l/oVmAGJuv2m0hDgLOL63PHGJ7UwztGQnx0E1yIJIKsCIdm2jIwfIMyveGl8pIGhP9Ndd79PMqjpeC6CA==" sparkle:os="macos" length="2288855" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
