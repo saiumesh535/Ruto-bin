@@ -4,6 +4,14 @@
         <title>Ruto</title>
         <item>
             <title>1.6</title>
+            <pubDate>Sun, 11 Oct 2026 06:08:10 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-17/Ruto.zip" length="2495120" type="application/octet-stream" sparkle:edSignature="KROAxhGX2ORVI3dottVpwBn34+KSH2nhA8eDNuDwBUxXXV54J9LEHPoYfwyVhCM8Nf2igsXDAyB35+cW+vvHCA=="/>
+        </item>
+        <item>
+            <title>1.6</title>
             <pubDate>Sat, 10 Oct 2026 08:17:30 +0000</pubDate>
             <sparkle:version>16</sparkle:version>
             <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
