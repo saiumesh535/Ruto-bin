@@ -4,6 +4,14 @@
         <title>Ruto</title>
         <item>
             <title>1.6</title>
+            <pubDate>Wed, 14 Oct 2026 07:02:23 +0000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-19/Ruto.zip" length="2496117" type="application/octet-stream" sparkle:edSignature="jMUPTGLAaGfYARq7diSlpDHclwCJURDi4q5ImV0CEn9WdQBzUElETseuOcEer6bjElrtTZMqPjzNwKQQKr+2Bw=="/>
+        </item>
+        <item>
+            <title>1.6</title>
             <pubDate>Sun, 11 Oct 2026 13:13:08 +0000</pubDate>
             <sparkle:version>18</sparkle:version>
             <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-17/Ruto.zip" length="2495120" type="application/octet-stream" sparkle:edSignature="KROAxhGX2ORVI3dottVpwBn34+KSH2nhA8eDNuDwBUxXXV54J9LEHPoYfwyVhCM8Nf2igsXDAyB35+cW+vvHCA=="/>
-        </item>
-        <item>
-            <title>1.6</title>
-            <pubDate>Sat, 10 Oct 2026 08:17:30 +0000</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/saiumesh535/Ruto-bin/releases/download/v1.6-16/Ruto.zip" length="2466363" type="application/octet-stream" sparkle:edSignature="0g+gUhgJWMG7qqPC6rjXRYR1P0JoT/k60llmH6BH6KLtG0YPig53yeXmB9JM01gJ5E2bfqvbb95YzPuty61ZBQ=="/>
         </item>
     </channel>
 </rss>
